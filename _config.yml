@@ -1,0 +1,24 @@
+name: Логово Корра
+description: Наблюдения программиста за жизнью, Вселенной и вообще...
+
+paginate: 3
+
+permalink: /:title
+
+sass:
+  sass_dir: _sass
+  style: compressed
+
+plugins: [jekyll-paginate]
+
+footer-links:
+  email: al.dyagulev@gmail.com
+  github: xandrcorr
+  linkedin: xandrcorr
+
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - LICENSE
+  - README.md
+  - CNAME
