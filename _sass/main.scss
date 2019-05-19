@@ -39,13 +39,21 @@
     font-family: monospace
 }
 
-.post > p img {
+.image > img {
     display: block;
     margin-left: auto;
     margin-right: auto;
     width: 100%;
     max-width: 700px;
     align-content: center;
+    padding-bottom: 5px;
+}
+
+
+figcaption {
+    font-size: $image-caption-size;
+    text-align: center;
+    color: #555;
 }
 
 h1 {
