@@ -17,6 +17,9 @@ layout: default
                 {{ post.excerpt }}
             {% endif %}
             <div class="post-date">{{ post.date | date_to_string }}</div>
+            <h5>
+                <a href="{{ post.url }}">Читать далее</a>
+            </h5>
         </article>
         {% endfor %}
     </div>
